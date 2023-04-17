@@ -107,7 +107,7 @@ def main():
                 elif move == 'stand':
                     break
                 else:
-                    print("Invalid input. Please enter 'h' or 's'.")
+                    print("Invalid input. Please enter 'hit' or 'stand'.")
 
             if player_value <= 21:
                 while dealer_value < 17:
